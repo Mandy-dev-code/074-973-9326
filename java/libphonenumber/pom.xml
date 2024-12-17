@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>libphonenumber</artifactId>
+  <artifactId>PhoneNumber swissMobileNumber =
+    new PhoneNumber().setCountryCode(41).setNationalNumber(798765432L);
+PhoneNumberToCarrierMapper carrierMapper = PhoneNumberToCarrierMapper.getInstance();
+// Outputs "Swisscom"
+System.out.println(carrierMapper.getNameForNumber(swissMobileNumber, Locale.ENGLISH));</artifactId>
   <version>8.13.53-SNAPSHOT</version>
   <packaging>jar</packaging>
   <url>https://github.com/google/libphonenumber/</url>
